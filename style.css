@@ -1,0 +1,113 @@
+table {
+    width : 100%;
+    margin-top: 51px;
+    /* transition: transform .7s ease-in;
+    /* transition: auto; */
+    transition: transform 2s;
+}
+body{
+    background: #0f4ce4;
+}
+th,
+td {
+    
+    border: 1px solid;
+    padding: 15px !important;
+    color: #0f4ce4;
+    background: white;
+}
+th{
+    font-weight: bold;
+    color: #0f4ce4;
+    text-align: left;
+    /* animation-name: myanimation;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+ .mybtn:hover {
+    background: #0f4ce4 !important;
+    color: white !important;
+    border-radius: 50% !important;
+
+  }
+  h1{
+      color: white;
+      text-align: center;
+  }
+  .active{
+    background: #0f4ce4 !important;
+    color: white !important;
+    border-radius: 50% !important;
+    height: 45px;
+    width: 45px;
+      box-sizing: border-box;
+      border: 1px solid #D7D7D7;
+      outline: none;
+      border: none;
+      margin-right: 12px;
+      font-size: 19px;
+  }
+  #pagination{
+      background: white;
+      text-align: center;
+      margin-top: 30px;
+  }
+  .mybtn {
+  height: 45px;
+  width: 45px;
+    box-sizing: border-box;
+    border: 1px solid #D7D7D7;
+    outline: none;
+    border: none;
+    margin-right: 12px;
+    color: black;
+    background: white;
+    font-size: 19px;
+    color: #0f4ce4;
+
+}
+#main{
+    width: 50%;
+    margin: 0 auto;
+}
+.ctrlBtn{
+    height: 48px;
+    width: 45px;
+    color: #0f4ce4;
+    box-sizing: border-box;
+    border: 1px solid #D7D7D7;
+    outline: none;
+    border: none;
+    margin:0 12px;
+    background: white;
+    font-size: 19px;
+}   
+.page-container{
+    display: inline-block;
+}
+#page-no{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 27px;
+    text-align: center;
+}
+.dotstr{
+    color: #0f4ce4;  
+    margin-right: 12px;
+}
+.pageno{
+    color: black;
+}
+/* @keyframes myanimation {
+    from {
+        background-color: #f9f7f7;
+        color: #0f4ce4;
+}
+to {
+    background-color: #1919d8;
+    color: white
+}
+} */
+
